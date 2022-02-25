@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5c4ff;
+    justify-content: flex-end;
+    gap: 10px;
+    height: 50px;
+}
+
+aside{
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+nav{
+    background-color: #c4ffe6
+}
+
+body{
+    height: 100hv;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    background-size: cover;
+    background-image: url(images/tableau_empty.jpg);
+    background-repeat: no-repeat;
+    height: 60hv;
+    border: 5px;
+border-color: black;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+}
+
+section {
+    border: 2px green;
+}
+
+footer {
+
+    background-color: #c5c4ff;
+    height: 50px;
+    margin-top: 85vh;
+}
