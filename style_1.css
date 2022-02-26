@@ -4,18 +4,25 @@
 
 header {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     justify-content: space-between;
     background-color: #c5c4ff;
     justify-content: flex-end;
     gap: 10px;
     height: 50px;
+    width: 100%;
+    margin: 0px;
 }
 
 aside{
     margin-right: 10px;
 }
 
+
 ul {
+    margin-top: .5vh;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -23,38 +30,87 @@ ul {
 }
 
 nav{
+    width: 100%;
+    height: 3vh;
+    position: fixed;
+    top: 35px;
+    left: 0;
     background-color: #c4ffe6
 }
 
 body{
-    height: 100hv;
+
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    position: relative;
     background-size: cover;
-    background-image: url(images/tableau_empty.jpg);
+    background-image: linear-gradient( 135deg, #ff2c2c, #0396FF);
     background-repeat: no-repeat;
-    height: 60hv;
-    border: 5px;
-border-color: black;
-}
-
-footer {
-    display: flex;
+    background-attachment: fixed;
     height: 50px;
 }
+
+main {
+    color: white;
+}
+
+.bio {
+    display: relative;
+    margin: 10% 15% 30% 49%;
+}
+
+@media screen and (min-width: 480px) {
+    section.content {
+    font-size: 20px;
+    }
+   }
+
+   @media screen and (min-width: 768px) {
+    section.content {
+    font-size: 35px;
+    }
+   }
+
+   @media screen and (min-width: 960px) {
+    section.content {
+    font-size: 45px;
+    }
+   }
+
+
+   @media screen and (min-width: 1200px) {
+    section.content {
+    font-size: 4vh;
+    }
+   }
+
+
+.projects {
+display: relative;
+margin: -25% 0 40% 60%;
+}
+
+.experience {
+    display: relative;
+    margin: -25% 0 40% 60%;
+}
+
+
 
 section {
     border: 2px green;
 }
 
 footer {
-
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    bottom: 0;
     background-color: #c5c4ff;
-    height: 50px;
-    margin-top: 85vh;
+    width: 100%;
+    height: 10%;
 }
+
+
+

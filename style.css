@@ -1,0 +1,33 @@
+
+
+ul {
+    list-style-type: none;
+}
+
+aside {
+  
+}
+
+ul {
+   
+}
+
+body {
+ 
+}
+
+
+img{
+    position: absolute;
+    margin: 0 0 0 80%;
+ }
+
+div.chat_bubble {
+    background-color: rgb(187, 255, 244);
+    border: 2px solid #000;
+    left: 54%;
+    margin: 1%;
+    padding: 1%;
+    position: absolute;
+    top: 50%;
+  }
