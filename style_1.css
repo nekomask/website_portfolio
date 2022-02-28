@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
 * {
     margin: 0px;
 }
 
 header {
     display: flex;
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     justify-content: space-between;
     background-color: #c5c4ff;
     justify-content: flex-end;
     gap: 10px;
-    height: 50px;
+    height: 5vh;
     width: 100%;
     margin: 0px;
+    font-family: 'Righteous';
 }
 
 aside{
@@ -47,42 +53,80 @@ body {
     background-position: bottom right 20%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 50px;
 }
 
 main {
     color: white;
+    font-family: 'Permanent Marker';
 }
 
 .bio {
     display: relative;
     margin: 10% 15% 30% 49%;
 }
+@media screen and (min-width: 260px) {
+    section.content {
+    font-size: 2.2vh;
+    }
+    header {
+        height: 6.4vh;
+    }
+    nav{
+        height: 4vh;
+    }
+    main {
+        margin-top: 22%;
+    }
+   }
+
+
 
 @media screen and (min-width: 480px) {
     section.content {
-    font-size: 20px;
-    }
-   }
+    font-size: 2.6vh;
+}
+header {
+    height: 6.4vh;
+}
+nav{
+    height: 4vh;
+}
+main {
+    margin-top: 16%;
+}
+}
 
    @media screen and (min-width: 768px) {
     section.content {
-    font-size: 35px;
+    font-size: 3vh;
     }
-   }
+    main {
+        margin-top: 12%;
+        margin-right: 15%;
+    }
+    }
 
    @media screen and (min-width: 960px) {
     section.content {
-    font-size: 45px;
+    font-size: 3vh;
     }
-   }
+    main {
+        margin: 10% 20% 0 0;
+        
+    }
+    }
 
 
    @media screen and (min-width: 1200px) {
     section.content {
-    font-size: 4vh;
+    font-size: 3vh;
     }
-   }
+    main {
+    margin: 10% 85% 5% 0;
+    width: 75%;
+    border-radius: 40%;
+    }
+    }   
 
 
 .projects {
@@ -101,6 +145,7 @@ section {
     border: 2px green;
 }
 
+
 footer {
     display: flex;
     position: fixed;
@@ -110,6 +155,7 @@ footer {
     background-color: #c5c4ff;
     width: 100%;
     height: 6%;
+    font-family: 'Righteous';
 }
 
 #social {
@@ -119,4 +165,8 @@ display: flex;
 .bio {
     position: relative;
     margin: 10.9% 50% 0 4%;
+}
+
+.content {
+    margin-left: 10%;
 }
