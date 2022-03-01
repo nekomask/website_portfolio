@@ -7,6 +7,11 @@
     margin: 0px;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 header {
     display: flex;
     position:fixed;
@@ -20,6 +25,7 @@ header {
     width: 100%;
     margin: 0px;
     font-family: 'Righteous';
+    z-index: 1;
 }
 
 aside{
@@ -60,13 +66,34 @@ main {
     font-family: 'Permanent Marker';
 }
 
-.bio {
-    display: relative;
-    margin: 10% 15% 30% 49%;
-}
+
+div.chat_bubble {
+    background-color: rgb(187, 255, 244);
+    border: 2px solid #000;
+    left: 54%;
+    margin: 1%;
+    padding: 1%;
+    position: absolute;
+    top: 50%;
+  }
+
+  .bio{
+      font-size: 1.8vh;
+    max-height: 80%;
+  }
+
+  img{
+    position: absolute;
+    margin: -64px 0 0 0;
+ }
+
+
 @media screen and (min-width: 260px) {
     section.content {
-    font-size: 2.2vh;
+    font-size: 1.7vh;
+    width: 100%;
+    margin: 25% 0 0 0;
+   
     }
     header {
         height: 6.4vh;
@@ -75,7 +102,23 @@ main {
         height: 4vh;
     }
     main {
-        margin-top: 22%;
+        margin-top: 15%;
+    }
+    #skills {
+        display: absolute;
+        flex-direction: column;
+        margin: 44vh 0 0 0;
+    }
+    .skills-description {
+        margin: 10vh 0 0 2vh;
+    }
+    #projects {
+        font-size: 3vh;
+        margin: 55% 50% 0 0;
+    }
+    img{
+        position: absolute;
+        margin: 68px 0 0 20vh;
     }
    }
 
@@ -94,6 +137,14 @@ nav{
 main {
     margin-top: 16%;
 }
+#projects {
+    font-size: 3vh;
+    margin: 30% 75% 0 0;
+}
+img{
+    position: absolute;
+    margin: 111px 0 0 20vh;
+}
 }
 
    @media screen and (min-width: 768px) {
@@ -104,6 +155,15 @@ main {
         margin-top: 12%;
         margin-right: 15%;
     }
+    #projects {
+        font-size: 4vh;
+        margin: 35% 80% 0 0;
+    }
+    img{
+        position: absolute;
+        margin: 191px 0 0 15vh;
+     }
+
     }
 
    @media screen and (min-width: 960px) {
@@ -111,9 +171,16 @@ main {
     font-size: 3vh;
     }
     main {
-        margin: 10% 20% 0 0;
-        
+        margin: 8% 20% 10% 0;
     }
+    #projects {
+        font-size: 5vh;
+        margin: 28% 70% 0 0;
+    }
+    img{
+        position: absolute;
+        margin: -23px 0 0 25vh;
+     }
     }
 
 
@@ -126,8 +193,41 @@ main {
     width: 75%;
     border-radius: 40%;
     }
+    #skills {
+        flex-direction: row;
+        margin: 35% 10% 0% 0;
+    }
+    #projects {
+        font-size: 6h;
+    }
+    img{
+        position: absolute;
+        margin: 97px 0 0 65vh;
+     }
     }   
 
+
+    @media screen and (min-width: 2560px) {
+        section.content {
+        font-size: 3vh;
+        }
+        main {
+        margin: 10% 85% 5% 0;
+        width: 75%;
+        border-radius: 40%;
+        }
+        #skills {
+            flex-direction: row;
+            margin: 35% 10% 0% 0;
+        }
+        #projects {
+            font-size: 6h;
+        }
+        img{
+            position: absolute;
+            margin: 261px 0 0 65vh;
+         }
+        }   
 
 .projects {
 display: relative;
@@ -156,6 +256,7 @@ footer {
     width: 100%;
     height: 6%;
     font-family: 'Righteous';
+    z-index: 5;
 }
 
 #social {
@@ -169,4 +270,24 @@ display: flex;
 
 .content {
     margin-left: 10%;
+}
+
+#javascript {
+    display: none;
+}
+
+#css {
+    display: none;
+}
+
+#html_ {
+    display: none;
+}
+
+#photoshop {
+    display: none;
+}
+
+#french {
+    display: none;
 }
