@@ -7,6 +7,16 @@
     margin: 0px;
 }
 
+html {
+    scrollbar-width: none;
+    overflow: hidden;
+    -ms-overlow-style: none;
+}
+
+html::-webkit-scrollbar{
+    width:0px;
+}
+
 a:link, a:visited {
     text-decoration: none;
     color: black;
@@ -315,10 +325,14 @@ display: flex;
     color: black;
 }
 
+#languages {
+    margin-right: 2%;
+}
 
 .rufus {
-    animation: rufusPeekUp 6s 1
+    animation: rufusPeekUp 6s 1;
 }
+
 
 @keyframes rufusPeekUp {
     0% {
@@ -331,4 +345,5 @@ display: flex;
     transform: translateX(0) translateY(0px);
     }
    }
+   
    
