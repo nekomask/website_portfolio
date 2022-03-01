@@ -29,7 +29,7 @@ $(`.html_`).on("click", function(){
         $(`#photoshop`).hide()
         $(`#french`).hide()
          toggleActive = false}
-    $(`#html_`).slideToggle();
+    $(`#html_`).show();
     toggleActive = true;
 })
 
@@ -40,7 +40,7 @@ $(`.photoshop`).on("click", function(){
         $(`#css`).hide()
         $(`#french`).hide()
          toggleActive = false}
-    $(`#photoshop`).slideToggle();
+    $(`#photoshop`).show();
     toggleActive = true;
 })
 
@@ -51,7 +51,7 @@ $(`.french`).on("click", function(){
         $(`#photoshop`).hide()
         $(`#css`).hide()
          toggleActive = false}
-    $(`#french`).slideToggle();
+    $(`#french`).show();
     toggleActive = true;
 })
 

@@ -12,6 +12,11 @@ a:link, a:visited {
     color: black;
 }
 
+a:hover {
+    color: white;
+}
+
+
 header {
     display: flex;
     position:fixed;
@@ -107,7 +112,8 @@ div.chat_bubble {
     #skills {
         display: absolute;
         flex-direction: column;
-        margin: 44vh 0 0 0;
+        font-size: 3vh;
+        margin: 15% 0 0 0;
     }
     .skills-description {
         margin: 10vh 0 0 2vh;
@@ -181,6 +187,9 @@ img{
         position: absolute;
         margin: -23px 0 0 25vh;
      }
+     .bio {
+        font-size: 2.2vh;
+    }
     }
 
 
@@ -195,15 +204,18 @@ img{
     }
     #skills {
         flex-direction: row;
-        margin: 35% 10% 0% 0;
+        margin: 14% 10% 0% 0;
     }
     #projects {
         font-size: 6h;
     }
     img{
         position: absolute;
-        margin: 97px 0 0 65vh;
+        margin: 0px 0 0 65vh;
      }
+     .bio {
+        font-size: 2.3vh;
+    }
     }   
 
 
@@ -218,15 +230,18 @@ img{
         }
         #skills {
             flex-direction: row;
-            margin: 35% 10% 0% 0;
+            margin: 21% 10% 0% 0;
         }
         #projects {
             font-size: 6h;
         }
         img{
             position: absolute;
-            margin: 261px 0 0 65vh;
+            margin: 35px 0 0 65vh;
          }
+         .bio {
+            font-size: 2.3vh;
+        }
         }   
 
 .projects {
@@ -291,3 +306,29 @@ display: flex;
 #french {
     display: none;
 }
+
+#skills {
+    color: white;
+}
+
+.chat_bubble {
+    color: black;
+}
+
+
+.rufus {
+    animation: rufusPeekUp 6s 1
+}
+
+@keyframes rufusPeekUp {
+    0% {
+    transform: translateX(0) translateY(100px);
+    }
+    50% {
+    transform: translateX(0) translateY(50px);
+    }
+    100% {
+    transform: translateX(0) translateY(0px);
+    }
+   }
+   
