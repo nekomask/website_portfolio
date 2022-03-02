@@ -351,6 +351,7 @@ color: white;
 
 .rufus {
     animation: rufusPeekUp 6s 1;
+    cursor: pointer;
 }
 
 
@@ -369,4 +370,9 @@ color: white;
 #resume {
     font-size: 7vh;
     margin: 30% 0 0 5%;
+}
+
+
+.welcome {
+    margin: 0 0 0 20%;
 }

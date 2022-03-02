@@ -82,13 +82,13 @@ $(document).ready(function () {
     $(rufus).attr("src", "images/rufus_francais.png")
     $(chatBubble).text("Coucou mon pôte, est-ce que vous avez besoin d'assistance pour naviguer mon site?")
     $(`#javascript`).text(`À l'instant, j'avais programmé des jeux en text`)
-    $(`#css`).text(`C'est comment je peux styliser le site!`)
+    $(`#css`).text(`C'est comment je peux styliser le site! Quel chic!`)
     $(`#html_`).text(`HTML, c'est le code principal pour créer les sites web!`)
     $(`#photoshop`).text(`Je fais du Adobe Photoshop pour 20+ ans, en fait je travaillais comme "photo editor" avant avoir demenagé en Californie`)
     $(`#french`).text(`Le capacité de communiquer soit très important! À part des langues informatique, j'utilise deux langues humaines aussi-- le français et l'anglais.`)
     $(`#projets`).text(`Projets`)
     $(`#skill`).text(`Competences`)
-    $(`#welcome`).text(`Bienvenue~ :)`)
+    $(`#welcome`).text(`Bienvenue á mon site web~ :)`)
     $('.projects').text(`C'est où mes projets se trouveront.`)
     }    
 })
@@ -96,7 +96,21 @@ $(document).ready(function () {
 
 const EN = document.getElementsByClassName("en")
 $(EN).click(function(){
-french === false;
+french = false;
+$(`.bio`).text(`I was born and grew up in Mobile, AL (a former French colony and the first capital of French-Louisiana prior to the aptly-named Louisiana Purchase).
+I attended the University of South Alabama where I double-majored in Studio Art and French. In 2012, I was fortunate to study abroad and attended Université Paul Valery in Montpellier, France.
+After graduating, I was accepted into the TAPIF program and returned to France as a teaching assistant. Upon finishing the program, I returned to the US and eventually found my way to the SF Bay Area where I have happily lived ever since.`);
+$(rufus).attr("src", "images/rufus_closeup2.png")
+$(chatBubble).text("Hey buddy, it looks like you want to use my website. Need any help?")
+$(`#javascript`).text(`So far in Javascript I've made some terminal games.`)
+$(`#css`).text(`This is mostly what I've used to give style to this website. Pretty handy!`)
+$(`#html_`).text(`Super useful for building websites!`)
+$(`#photoshop`).text(`I've been using Photoshop for over 20 years. I took 2 semesters of it in high school and even had a photo editor position before coming to California.`)
+$(`#french`).text(`Communication can sometimes make all the difference. In addition to computer languages-- I can also speak, read, and write in French!`)
+$(`#projets`).text(`Projects`)
+$(`#skill`).text(`Skills`)
+$(`#welcome`).text(`Welcome to my website :)`)
+$('.projects').text(`This is where my Projects will go.`)
 })
 
 
