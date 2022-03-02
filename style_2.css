@@ -80,6 +80,10 @@ body {
 main {
     color: white;
     font-family: 'Permanent Marker';
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
 }
 
 
@@ -120,10 +124,14 @@ div.chat_bubble {
     max-height: 80%;
   }
 
-  img{
-    position: absolute;
-    margin: -64px 0 0 0;
- }
+  div.projects {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 2vh;
+    align-items: center;
+}
+
 
 
 @media screen and (min-width: 260px) {
@@ -151,14 +159,12 @@ div.chat_bubble {
     .skills-description {
         margin: 10vh 0 0 2vh;
     }
-    #projects {
-        font-size: 3vh;
-        margin: 55% 50% 0 0;
+
+    div#terminal{
+        position: relative;
+        margin-top: 20%;
     }
-    img{
-        position: absolute;
-        margin: -38px 0 0 20vh;
-    }
+
    }
 
 
@@ -180,10 +186,12 @@ main {
     font-size: 3vh;
     margin: 30% 75% 0 0;
 }
-img{
-    position: absolute;
-    margin: 111px 0 0 20vh;
+
+div#terminal{
+    position: relative;
+    margin-top: 0;
 }
+
 }
 
    @media screen and (min-width: 768px) {
@@ -198,10 +206,8 @@ img{
         font-size: 4vh;
         margin: 35% 80% 0 0;
     }
-    img{
-        position: absolute;
-        margin: 154px 0 0 15vh;
-     }
+
+
 
     }
 
@@ -216,10 +222,8 @@ img{
         font-size: 5vh;
         margin: 28% 70% 0 0;
     }
-    img{
-        position: absolute;
-        margin: -23px 0 0 25vh;
-     }
+
+
      .bio {
         font-size: 2.2vh;
     }
@@ -242,10 +246,7 @@ img{
     #projects {
         font-size: 6h;
     }
-    img{
-        position: absolute;
-        margin: 0px 0 0 65vh;
-     }
+
      .bio {
         font-size: 2.3vh;
     }
@@ -268,10 +269,8 @@ img{
         #projects {
             font-size: 6h;
         }
-        img{
-            position: absolute;
-            margin: 35px 0 0 65vh;
-         }
+
+
          .bio {
             font-size: 2.3vh;
         }
@@ -279,7 +278,6 @@ img{
 
 .projects {
 display: relative;
-margin: -25% 0 40% 60%;
 }
 
 .experience {
@@ -377,12 +375,19 @@ color: white;
     margin: 0 0 0 20%;
 }
 
-div.projects {
+main{
     display: flex;
+    font-size: 5vh;
+    flex-wrap: wrap;
 }
 
+
+
 .projects img {
-    gap: 20%;
-    width: 10%;
-    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    width: 30%;
+    height: 30%;
+    margin: 0 0 0 30%;
 }

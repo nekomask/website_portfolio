@@ -76,20 +76,22 @@ $(document).ready(function () {
     if (french === true){
     $(`.bio`).text(`Je suis né á Mobile, AL (qui était la première colonie de la Louisiane-Française avant être acheté par les États-Unis en 1803.) 
     J'étudias á l'Université de South Alabama où je me suis specialisé en deux sujets-- le français et l'art. 
-    En 2012, j'avais la chance étudier á l'étranger a l'Université Paul Valery chez Montpellier, France. 
+    En 2012, j'avais la chance étudier á l'étranger á l'Université Paul Valery chez Montpellier, France. 
     Après avoir obtenu mon diplôme, j'étais permi dans le programme TAPIF pour être un assistant d'enseigner l'anglais.  
     Lorsqu'il s'est terminé, je me suis rendu aux États-Unis et finalement me trouvé au San Francisco Bay Area où j'habite hereusement depuis ce-temps lá.`);
     $(rufus).attr("src", "images/rufus_francais.png")
     $(chatBubble).text("Coucou mon pôte, est-ce que vous avez besoin d'assistance pour naviguer mon site?")
-    $(`#javascript`).text(`À l'instant, j'avais programmé des jeux en text`)
+    $(`#javascript`).text(`J'ai programmé des jeux en text`)
     $(`#css`).text(`C'est comment je peux styliser le site! Quel chic!`)
     $(`#html_`).text(`HTML, c'est le code principal pour créer les sites web!`)
     $(`#photoshop`).text(`Je fais du Adobe Photoshop pour 20+ ans, en fait je travaillais comme "photo editor" avant avoir demenagé en Californie`)
     $(`#french`).text(`Le capacité de communiquer soit très important! À part des langues informatique, j'utilise deux langues humaines aussi-- le français et l'anglais.`)
     $(`#projets`).text(`Projets`)
+    $(`#experience`).text(`Expérience Professionnelle`)
     $(`#skill`).text(`Competences`)
     $(`#welcome`).text(`Bienvenue á mon site web~ :)`)
     $('.projects').text(`C'est où mes projets se trouveront.`)
+    $(`#resume`).replaceWith('<p id="resume">Pour voir mon CV, <a href="resume.pdf" target="_blank"><u>cliquer ici</u></a>.</p>')
     }    
 })
     
@@ -110,7 +112,10 @@ $(`#french`).text(`Communication can sometimes make all the difference. In addit
 $(`#projets`).text(`Projects`)
 $(`#skill`).text(`Skills`)
 $(`#welcome`).text(`Welcome to my website :)`)
+$(`#experience`).text(`Experience`)
 $('.projects').text(`This is where my Projects will go.`)
+$(`#resume`).replaceWith('<p id="resume">To view my resume, <a href="resume.pdf" target="_blank"><u>click here</u></a>.</p>')
+
 })
 
 
