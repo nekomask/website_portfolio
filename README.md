@@ -27,5 +27,5 @@ When you click on the skills it will display a short description about why they'
 
 In addition to these pages, there is a fixed footer that contains links to my LinkedIn and Github along with my email address which I did not make clickable because I hate when microsoft office tries to pop-up.
 
-Thank you for visiting my webpage!
+Thank you for visiting my website!
 :)
