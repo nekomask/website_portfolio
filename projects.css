@@ -132,7 +132,9 @@ div.chat_bubble {
     align-items: center;
 }
 
-
+section {
+    margin-bottom: 15%;
+}
 
 @media screen and (min-width: 260px) {
     section.content {
