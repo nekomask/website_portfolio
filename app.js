@@ -74,17 +74,22 @@ $(document).ready(function () {
     $(FR).click(function(){
     french = true;
     if (french === true){
-    $(`.bio`).text(`Je suis ne a Mobile, AL (qui etait la premier colonie de la Louisiana-Francaise avant etre achete par les Etat-Unis.) J'etudias a l'Universite de South Alabama ou je me suis specialise en deux sujets-- le francais et l'art. En 2012, j'avais la chance etudier a l'etranger a l'Universite Paul Valerie chez Montpellier, France. Apres avoir obtenu mon diplome, j'etais permi dans le programme TAPIF a etre un assistant d'enseigner l'anglais.  Lorsqu'il s'est termine, je me suis rendu aux Etats-Unis et me trouver au San Francisco Bay Area ou j'habite hereusement depuis ce-temps la.`);
+    $(`.bio`).text(`Je suis né á Mobile, AL (qui était la première colonie de la Louisiane-Française avant être acheté par les États-Unis en 1803.) 
+    J'étudias á l'Université de South Alabama où je me suis specialisé en deux sujets-- le français et l'art. 
+    En 2012, j'avais la chance étudier á l'étranger a l'Université Paul Valery chez Montpellier, France. 
+    Après avoir obtenu mon diplôme, j'étais permi dans le programme TAPIF pour être un assistant d'enseigner l'anglais.  
+    Lorsqu'il s'est terminé, je me suis rendu aux États-Unis et finalement me trouvé au San Francisco Bay Area où j'habite hereusement depuis ce-temps lá.`);
     $(rufus).attr("src", "images/rufus_francais.png")
-    $(chatBubble).text("Coucou mon pôte, est-ce que vous avez besoin d'assistance pour naviger mon site?")
-    $(`#javascript`).text(`A l'instant, j'avais programme des jeux en text`)
-    $(`#css`).text(`C'est comment je fais de la mode au website!`)
-    $(`#html_`).text(`HTML, c'est le code principal pour creer les websites`)
-    $(`#photoshop`).text(`Je fais du Adobe Photoshop pour 20+ ans, en fait je travaillais comme "photo editor" avant avoir demenage en Californie`)
-    $(`#french`).text(`Le capacite de communiquer soit tres important! A part des langues informatique, j'utilise deux langues humaines aussi-- le francais et l'anglais.`)
+    $(chatBubble).text("Coucou mon pôte, est-ce que vous avez besoin d'assistance pour naviguer mon site?")
+    $(`#javascript`).text(`À l'instant, j'avais programmé des jeux en text`)
+    $(`#css`).text(`C'est comment je peux styliser le site!`)
+    $(`#html_`).text(`HTML, c'est le code principal pour créer les sites web!`)
+    $(`#photoshop`).text(`Je fais du Adobe Photoshop pour 20+ ans, en fait je travaillais comme "photo editor" avant avoir demenagé en Californie`)
+    $(`#french`).text(`Le capacité de communiquer soit très important! À part des langues informatique, j'utilise deux langues humaines aussi-- le français et l'anglais.`)
     $(`#projets`).text(`Projets`)
     $(`#skill`).text(`Competences`)
     $(`#welcome`).text(`Bienvenue~ :)`)
+    $('.projects').text(`C'est où mes projets se trouveront.`)
     }    
 })
     
