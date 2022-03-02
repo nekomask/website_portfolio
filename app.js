@@ -87,7 +87,7 @@ $(document).ready(function () {
     $(`#photoshop`).text(`Je fais du Adobe Photoshop pour 20+ ans, en fait je travaillais comme "photo editor" avant avoir demenagé en Californie`)
     $(`#french`).text(`Le capacité de communiquer soit très important! À part des langues informatique, j'utilise deux langues humaines aussi-- le français et l'anglais.`)
     $(`#projets`).text(`Projets`)
-    $(`#experience`).text(`Expérience Professionnelle`)
+    $(`#experience`).text(`Expérience`)
     $(`#skill`).text(`Competences`)
     $(`#welcome`).text(`Bienvenue á mon site web~ :)`)
     $(`#resume`).replaceWith('<p id="resume">Pour voir mon CV, <a href="resume.pdf" target="_blank"><u>cliquer ici</u></a>.</p>')
