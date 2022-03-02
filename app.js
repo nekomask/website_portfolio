@@ -90,8 +90,8 @@ $(document).ready(function () {
     $(`#experience`).text(`Expérience Professionnelle`)
     $(`#skill`).text(`Competences`)
     $(`#welcome`).text(`Bienvenue á mon site web~ :)`)
-    $('.projects').text(`C'est où mes projets se trouveront.`)
     $(`#resume`).replaceWith('<p id="resume">Pour voir mon CV, <a href="resume.pdf" target="_blank"><u>cliquer ici</u></a>.</p>')
+    $(`#terminal`).text("Des jeux en Terminale")
     }    
 })
     
@@ -115,7 +115,7 @@ $(`#welcome`).text(`Welcome to my website :)`)
 $(`#experience`).text(`Experience`)
 $('.projects').text(`This is where my Projects will go.`)
 $(`#resume`).replaceWith('<p id="resume">To view my resume, <a href="resume.pdf" target="_blank"><u>click here</u></a>.</p>')
-
+$(`#terminal`).text("Terminal Games")
 })
 
 
